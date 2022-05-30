@@ -1,0 +1,4 @@
+Sandbox_EN = {
+	Sandbox_GeneratorConditionMax = "Maximum Generator Condition",
+	Sandbox_GeneratorConditionMax_tooltip = "Set the generator's maximum condition, eg. 125 or 200",
+}

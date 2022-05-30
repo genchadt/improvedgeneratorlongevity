@@ -1,0 +1,9 @@
+VERSION = 1,
+
+option ImprovedGeneratorLongevity.GeneratorConditionMax
+{
+	type = integer,
+	default = 100, min = 1, max = 999,
+	page = WorldOptions, 
+	translation = GeneratorConditionMax,
+}
