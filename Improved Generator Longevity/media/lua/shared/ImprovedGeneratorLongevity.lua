@@ -10,4 +10,4 @@ function SetGenConditionMax()
   end
 end
 
-Events.OnInitWorld.Add(SetGenConditionMax)
+Events.OnInitWorld.Add(SetGenConditionMax) -- Set condition when a world is initialized
