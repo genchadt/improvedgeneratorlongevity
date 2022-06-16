@@ -1,4 +1,6 @@
-require("ItemTweak.lua")
+if getActivatedMods():contains("GCT_API") then
+  require ("ItemTweak")
+end
 
 function SetGenConditionMax()
   -- Set all relevant variables - item ID, param we need changed, user value from Sandbox Vars
