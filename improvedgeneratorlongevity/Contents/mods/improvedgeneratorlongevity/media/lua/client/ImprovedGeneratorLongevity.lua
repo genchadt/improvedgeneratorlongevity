@@ -1,5 +1,5 @@
 if getActivatedMods():contains("GCT_API") then
-  require ("ItemTweak")
+  require("ItemTweak")
 end
 
 function SetGenConditionMax()
