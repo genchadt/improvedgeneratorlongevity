@@ -15,4 +15,4 @@ function SetGenConditionMax()
   print("Generator Max Condition: "..value)
 end
 
-SetGenConditionMax()
+Events.OnGameBoot.Add(SetGenConditionMax)

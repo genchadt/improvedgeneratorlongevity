@@ -10,7 +10,7 @@ function ItemTweak.tweakItems()
     for k,v in pairs(TweakItemValues) do
         -- iterate through nested table in TweakItemValues (itemProperty = propertyValue)
         for t,y in pairs(v) do
-            item = ScriptManager.Instance:getItem()
+            item = ScriptManager.Instance:getItem(k)
             if item ~= nil then
                 item.DoParam(t.." = "..y)
             end
