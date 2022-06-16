@@ -1,0 +1,4 @@
+Sandbox_CN = {
+	Sandbox_GeneratorConditionMax = "最大发电机条件",
+	Sandbox_GeneratorConditionMax_tooltip = "设置生成器的最大条件，例如。 125 或 200",
+}
