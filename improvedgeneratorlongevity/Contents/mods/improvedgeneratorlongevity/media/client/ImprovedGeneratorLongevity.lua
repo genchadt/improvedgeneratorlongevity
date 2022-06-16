@@ -9,7 +9,7 @@ function SetGenConditionMax()
   -- If the item and value exist, tweak the values
   if itemID ~= nil and value ~= nil then
     for k,v in pairs(itemID) do
-      TweakItem(itemID, param, value)
+      TweakItem(v, param, value)
     end
   end
   print("Generator Max Condition: "..value)
