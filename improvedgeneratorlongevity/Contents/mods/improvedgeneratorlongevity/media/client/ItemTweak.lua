@@ -27,3 +27,5 @@ function TweakItem(itemName, itemProperty, propertyValue)
     -- indices 1 and 2 are strings, indice 3 is another table
     TweakItemValues[itemName][itemProperty] = propertyValue
 end
+
+Events.OnGameBoot.Add(ItemTweak.tweakItems)
