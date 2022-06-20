@@ -1,6 +1,0 @@
-version=1
-id=2810514843
-title=Improved Generator Longevity
-description=Description incoming
-tags=Build 41;Balance;Building;Misc;Multiplayer
-visibility=public
